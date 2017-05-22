@@ -14,7 +14,7 @@ It is designed to unify the C preprocessor definitions in the following environm
 
 The goals are:
 
-1. To minimize the need for inserting 'ifdefs' inside project source code.
+1. To minimize the need for inserting "ifdefs" inside project source code.
 
 2. To minimize the need for creation of virtual layers/drivers for the O/S,
 language, or compiler.
@@ -70,7 +70,7 @@ TEST ENV: Ubuntu 16.04, gcc/clang
 ## --
 <address>
 <br>AUTHOR: Avraham DOT Bernstein AT gmail
-<br>DATE: 2017-05-22T21:26:00Z
+<br>DATE: 2017-05-22T21:33:00Z
 <br>Copyright (c) Avraham Bernstein, Jerusalem ISRAEL. All rights reserved.
 <br>LICENSE: Apache License, Version 2.0: https://opensource.org/licenses/Apache-2.0
 </address>
