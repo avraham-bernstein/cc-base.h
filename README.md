@@ -1,4 +1,4 @@
-# README: cc-base.h Project
+# README: CC-BASE.H Project
 
 Implementation Status: Soon. (Already implemented. Just organizing the code for xfer to Github).
 
@@ -70,7 +70,7 @@ TEST ENV: Ubuntu 16.04, gcc/clang
 ## --
 <address>
 <br>AUTHOR: Avraham DOT Bernstein AT gmail
-<br>DATE: 2017-05-22T21:33:00Z
+<br>DATE: 2017-05-22T21:49:00Z
 <br>Copyright (c) Avraham Bernstein, Jerusalem ISRAEL. All rights reserved.
 <br>LICENSE: Apache License, Version 2.0: https://opensource.org/licenses/Apache-2.0
 </address>
