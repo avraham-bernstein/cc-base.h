@@ -26,12 +26,12 @@ challenge is that C99, C11, C++03, C++11, and C++14 all have a different
 syntax for specifying this same logical construct. For	example:
 
 ```C
-			int x = 42;
-			CC_AUTO(y,x);
-			// ==> gcc/clang: C99 & C++03:	__typeof(x) y = x
-			// ==> gcc/clang: C11:			__auto_type y = x
-			// ==> gcc/clang/msvc: C++11:	auto y = x
-			// ==> gcc/clang/msvc: C++14:	decltype(auto) y = x
+	int x = 42;
+	CC_AUTO(y,x);
+	// ==> gcc/clang: C99 & C++03:	__typeof(x) y = x
+	// ==> gcc/clang: C11:		__auto_type y = x
+	// ==> gcc/clang/msvc: C++11:	auto y = x
+	// ==> gcc/clang/msvc: C++14:	decltype(auto) y = x
 ```
 
 4. To provide a macro "wrapper" for specifying compiler specific attributes
